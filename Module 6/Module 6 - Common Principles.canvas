@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"a1b2c3d4e5f6a7b8","type":"text","text":"Module 6 - Common Principles","x":-200,"y":-640,"width":520,"height":80,"color":"5"},
+		{"id":"b2c3d4e5f6a7b8c9","type":"text","text":"Module 6 in short\nThis module covers notation in solution architecture — the visual languages and conventions architects use to represent systems, communicate designs, and align stakeholders.","x":600,"y":-720,"width":420,"height":160,"color":"6"},
+		{"id":"c3d4e5f6a7b8c9d0","type":"text","text":"Notation in Solution Architecture\nNotation is the visual language of architecture — diagrams, symbols, and rules that represent components, interactions, and data flows. Three types exist: Informal (flexible, accessible to all), Semi-Formal (standardized conventions for technical teams), and Formal (strict, mathematical precision for hardware and safety-critical systems).","x":-40,"y":-400,"width":520,"height":280,"color":"4"},
+		{"id":"d4e5f6a7b8c9d0e1","type":"text","text":"Types of Notation\nInformal notations prioritize accessibility with no rigid rules — great for stakeholder communication. Semi-formal notations (UML, ArchiMate, C4) balance structure and usability for technical collaboration. Formal notations use strict mathematical rules for maximum precision, requiring specialized expertise and tooling — used in hardware engineering and safety-critical domains.","x":-40,"y":0,"width":520,"height":280,"color":"3"},
+		{"id":"e5f6a7b8c9d0e1f2","type":"file","file":"Module 6/Notation in Solution Architecture - Types of Notation.md","x":760,"y":0,"width":520,"height":640},
+		{"id":"f6a7b8c9d0e1f2a3","type":"text","text":"Informal Notations\nFree-form diagrams with no visual conventions or formal analysis rules. Created with general-purpose tools (PowerPoint, whiteboards), they prioritize accessibility for non-technical audiences over precision. Their four traits — free-form creation, no visual conventions, lack of formal analysis, and broad accessibility — make them ideal for early-stage communication and stakeholder alignment.","x":-40,"y":380,"width":520,"height":260,"color":"3"},
+		{"id":"a7b8c9d0e1f2a3b4","type":"file","file":"Module 6/Informal Notations.md","x":760,"y":760,"width":520,"height":640},
+		{"id":"b8c9d0e1f2a3b4c5","type":"text","text":"Informal Notations: Examples\nFive real-world examples — web hosting, Android platform, whiteboard sketches — show how informal diagrams communicate architecture across contexts. A key (legend) is critical: without it, shapes, colors, and lines invite misinterpretation. The whiteboard litmus test is a practical check: if an architecture can't be sketched and explained in minutes, it needs further simplification.","x":-40,"y":740,"width":520,"height":260,"color":"3"},
+		{"id":"c9d0e1f2a3b4c5d6","type":"file","file":"Module 6/Informal Notations - Examples.md","x":760,"y":1500,"width":520,"height":640},
+		{"id":"d0e1f2a3b4c5d6e7","type":"text","text":"Semi-Formal Notations\nStandardized symbols and rule-governed diagrams that sit between informal flexibility and formal rigor. Each symbol carries built-in meaning, enabling basic structural checks. Three key standards: UML (software structure and behavior), BPMN (business processes and workflows), and ERD (data entity relationships). Require notation knowledge and specialized tooling — used primarily by technical professionals.","x":-720,"y":60,"width":520,"height":260,"color":"3"},
+		{"id":"e1f2a3b4c5d6e7f8","type":"file","file":"Module 6/Semi-Formal Notations.md","x":-1400,"y":60,"width":520,"height":640},
+		{"id":"f2a3b4c5d6e7f8a9","type":"text","text":"Formal Notations\nMathematical specifications using logic and set theory to describe systems with complete precision and unambiguous semantics. Support automated verification tools. More complex than visual diagrams — require specialized knowledge and software. Most valuable in hardware systems engineering and safety-critical domains (avionics, medical, security). Examples: Z Notation, TLA+, Alloy, Petri Nets.","x":-720,"y":420,"width":520,"height":260,"color":"3"},
+		{"id":"a3b4c5d6e7f8a9b0","type":"file","file":"Module 6/Formal Notations.md","x":-1400,"y":840,"width":520,"height":640},
+		{"id":"b4c5d6e7f8a9b0c1","type":"text","text":"AADL: Architecture Analysis and Design Language\nSAE formal notation for embedded and safety-critical systems. Supports software, hardware, and system components in a single model — explicitly linking software to hardware. Follows model-driven development: models drive schedulability, resource, and safety analysis before any code is written. Semi-formal alternatives (UML class diagrams for code gen, ERDs for schema gen) cover similar goals at lower complexity.","x":-720,"y":780,"width":520,"height":280,"color":"3"},
+		{"id":"c5d6e7f8a9b0c1d2","type":"file","file":"Module 6/Formal Notations - Architecture Analysis and Design Language.md","x":-1400,"y":1580,"width":520,"height":640},
+		{"id":"d6e7f8a9b0c1d2e3","type":"text","text":"Notations Selection\nThree factors guide notation choice: (1) Stakeholders' viewpoints — non-technical audiences need informal, technical teams use semi-formal, specialists use formal; (2) Organization/project preferences — mandatory standards, tooling, and team familiarity; (3) Notation type specifics — match capabilities (precision, speed, analysis support) to the task. No single notation fits all — the right choice depends on audience, context, and purpose.","x":1400,"y":-430,"width":520,"height":280,"color":"3"},
+		{"id":"e7f8a9b0c1d2e3f4","type":"file","file":"Module 6/Notations Selection.md","x":2080,"y":-430,"width":520,"height":640}
+	],
+	"edges":[
+		{"id":"edge_001","fromNode":"a1b2c3d4e5f6a7b8","fromSide":"right","toNode":"b2c3d4e5f6a7b8c9","toSide":"left","label":"overview"},
+		{"id":"edge_002","fromNode":"a1b2c3d4e5f6a7b8","fromSide":"bottom","toNode":"c3d4e5f6a7b8c9d0","toSide":"top","label":"details"},
+		{"id":"edge_003","fromNode":"c3d4e5f6a7b8c9d0","fromSide":"bottom","toNode":"d4e5f6a7b8c9d0e1","toSide":"top","label":"types"},
+		{"id":"edge_004","fromNode":"d4e5f6a7b8c9d0e1","fromSide":"right","toNode":"e5f6a7b8c9d0e1f2","toSide":"left","label":"link"},
+		{"id":"edge_005","fromNode":"d4e5f6a7b8c9d0e1","fromSide":"bottom","toNode":"f6a7b8c9d0e1f2a3","toSide":"top","label":"informal"},
+		{"id":"edge_006","fromNode":"f6a7b8c9d0e1f2a3","fromSide":"right","toNode":"a7b8c9d0e1f2a3b4","toSide":"left","label":"link"},
+		{"id":"edge_007","fromNode":"f6a7b8c9d0e1f2a3","fromSide":"bottom","toNode":"b8c9d0e1f2a3b4c5","toSide":"top","label":"examples"},
+		{"id":"edge_008","fromNode":"b8c9d0e1f2a3b4c5","fromSide":"right","toNode":"c9d0e1f2a3b4c5d6","toSide":"left","label":"link"},
+		{"id":"edge_009","fromNode":"d4e5f6a7b8c9d0e1","fromSide":"left","toNode":"d0e1f2a3b4c5d6e7","toSide":"right","label":"semi-formal"},
+		{"id":"edge_010","fromNode":"d0e1f2a3b4c5d6e7","fromSide":"left","toNode":"e1f2a3b4c5d6e7f8","toSide":"right","label":"link"},
+		{"id":"edge_011","fromNode":"d4e5f6a7b8c9d0e1","fromSide":"left","toNode":"f2a3b4c5d6e7f8a9","toSide":"right","label":"formal"},
+		{"id":"edge_012","fromNode":"f2a3b4c5d6e7f8a9","fromSide":"left","toNode":"a3b4c5d6e7f8a9b0","toSide":"right","label":"link"},
+		{"id":"edge_013","fromNode":"f2a3b4c5d6e7f8a9","fromSide":"bottom","toNode":"b4c5d6e7f8a9b0c1","toSide":"top","label":"aadl"},
+		{"id":"edge_014","fromNode":"b4c5d6e7f8a9b0c1","fromSide":"left","toNode":"c5d6e7f8a9b0c1d2","toSide":"right","label":"link"},
+		{"id":"edge_015","fromNode":"c3d4e5f6a7b8c9d0","fromSide":"right","toNode":"d6e7f8a9b0c1d2e3","toSide":"left","label":"selection"},
+		{"id":"edge_016","fromNode":"d6e7f8a9b0c1d2e3","fromSide":"right","toNode":"e7f8a9b0c1d2e3f4","toSide":"left","label":"link"}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"sso","type":"text","text":"**[External System]**\n\n### SSO Provider (Azure AD)\n\nIdentity and authentication provider.","x":-640,"y":340,"width":300,"height":220,"color":"#999999"},
+		{"id":"notify","type":"text","text":"**[External System]**\n\n### Email / SMS Provider\n\nDelivers email and SMS notifications on system events.","x":280,"y":340,"width":300,"height":220,"color":"#999999"},
+		{"id":"lms","type":"text","text":"**[Software System — In Scope]**\n\n## Learning Management System\n\nCentral platform for internal courses, workshop recordings, vendor courses, bookings, approvals, and reporting.","x":-250,"y":-140,"width":400,"height":220,"color":"#1168BD"},
+		{"id":"legend","type":"text","text":"## Legend — C4 Level 1 Notation\n\n🟦 **Person** *(internal)*\nHuman user inside the organisation.\nColour: C4 dark-blue `#08427B`.\n\n⬛ **Person — External**\nHuman user outside the organisation.\nColour: C4 grey `#686868`.\n\n🟦 **Software System (In Scope)**\nThe LMS itself — the system being designed.\nColour: C4 blue `#1168BD`.\n\n⬜ **External System**\nExisting system the LMS depends on.\nColour: grey `#999999`.\n\n➡️ **Labelled arrow**\nDirected interaction. Label = *what happens*; `[...]` = *protocol / channel*.\n\n---\n\n**Reading order:** arrows always point **from initiator → to target**. External dependencies sit outside the central system box. Internal LMS components are **deliberately hidden** — they belong to View 2 (Component Map).","x":680,"y":-420,"width":420,"height":720,"color":"3"},
+		{"id":"title","type":"text","text":"# View 1 — System Context (C4 Level 1)\n**Learning Management System**","x":-600,"y":-1100,"width":1100,"height":100},
+		{"id":"admin","type":"text","text":"**[Person]**\n\n### Administrator\n\nInternal staff — manages courses, approves bookings, views reports.","x":-180,"y":-940,"width":260,"height":220,"color":"#08427B"},
+		{"id":"learner","type":"text","text":"**[Person]**\n\n### Learner\n\nInternal employee who searches, books, and attends courses.","x":-770,"y":-720,"width":260,"height":220,"color":"#08427B"},
+		{"id":"supplier","type":"text","text":"**[Person — External]**\n\n### Third-Party Supplier\n\nExternal training vendor providing course opportunities.","x":320,"y":-680,"width":260,"height":220,"color":"#686868"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"learner","fromSide":"bottom","toNode":"lms","toSide":"top","label":"Searches & books courses, views reports\n[HTTPS / Client Web App]"},
+		{"id":"e2","fromNode":"admin","fromSide":"bottom","toNode":"lms","toSide":"top","label":"Manages courses, approves bookings\n[HTTPS / Admin Web App]"},
+		{"id":"e3","fromNode":"supplier","fromSide":"bottom","toNode":"lms","toSide":"top","label":"Adds & manages course opportunities\n[HTTPS / Integration API]"},
+		{"id":"e4","fromNode":"lms","fromSide":"bottom","toNode":"sso","toSide":"top","label":"Authenticates users\n[OAuth 2.0 / OIDC]"},
+		{"id":"e5","fromNode":"lms","fromSide":"bottom","toNode":"notify","toSide":"top","label":"Sends notifications on events\n[REST API / SMTP]"}
+	],
+	"metadata":{}
+}

@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "b07c2aa91ea2887b",
+    "id": "ea633212ed3fba14",
     "type": "split",
     "children": [
       {
-        "id": "9244825abd4b9783",
+        "id": "dca4bb3e40198866",
         "type": "tabs",
         "children": [
           {
-            "id": "e3b03e2739e6076e",
+            "id": "7e717f68609bddc3",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a3f70d4a94bce131",
+    "id": "9581cc95a93e9cd9",
     "type": "split",
     "children": [
       {
-        "id": "cd28f306c34f3c3b",
+        "id": "caf18ffd56902e72",
         "type": "tabs",
         "children": [
           {
-            "id": "e6f99490fc3a1da1",
+            "id": "5fef42daf881cfbf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "299548804760a9bf",
+            "id": "e12ce8841502577b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "fe6d168f2852b5fb",
+            "id": "e3615f3b2562e2cf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,22 +74,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 438.5
   },
   "right": {
-    "id": "b74b74fdd8003b60",
+    "id": "71211e957a8ca3b9",
     "type": "split",
     "children": [
       {
-        "id": "329320cda7426a3f",
+        "id": "6ed991669cea6d64",
         "type": "tabs",
         "children": [
           {
-            "id": "7897ba5f6f3d2e52",
+            "id": "e5e9a91f06e2f590",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Module 5/Model 5 - Common Principles.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для Model 5 - Common Principles"
             }
           },
           {
-            "id": "6ca45bb83ad6227a",
+            "id": "9008b8ed63b5433b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Module 5/Model 5 - Common Principles.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из Model 5 - Common Principles"
             }
           },
           {
-            "id": "0b7404107951052a",
+            "id": "e325cb92fa6ef04d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +133,7 @@
             }
           },
           {
-            "id": "8cd323788a3a1a80",
+            "id": "9df5ec8f938aa0a3",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -145,18 +147,18 @@
             }
           },
           {
-            "id": "c5ce47b61a9fb971",
+            "id": "e2c214daa0f2a9da",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Добро пожаловать.md",
+                "file": "Module 5/Model 5 - Common Principles.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Добро пожаловать"
+              "title": "Структура Model 5 - Common Principles"
             }
           }
         ]
@@ -178,46 +180,62 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e3b03e2739e6076e",
+  "active": "7e717f68609bddc3",
   "lastOpenFiles": [
-    "Test Note - MCP Integration.md",
-    "MCP Integration Test - Note 3.md",
-    "Advanced Test Note - MCP Features.md",
-    "2026-04-06.md",
-    "Homework/Homework 2/Utility tree.canvas",
-    "Homework/Homework 2/Capability Map.md",
-    "Homework/Homework 2/Homework 2.md",
-    "Homework/Homework 2",
-    "Homework/Homework 1.md",
-    "Pasted Image 20260306191522_008.png",
-    "Module 2/Drawing 2026-04-03 22.20.55.excalidraw.md",
-    "Homework/Homework 2.canvas",
-    "Module 1/Test drawing.md",
-    "Module 1/Images/Pasted Image 20260403155255_071.png",
-    "Module 1/Без названия.canvas",
-    "capa.md",
-    "Module 5/Без названия.canvas",
-    "Module 5",
-    "Module 3/Drawing 2026-04-03 22.23.12.excalidraw.md",
-    "Module 4/Drawing 2026-04-03 22.24.58.excalidraw.md",
-    "Module 4",
-    "Module 3",
-    "Module 1/Images",
-    "Pasted Image 20260307151022_998.png",
-    "Pasted Image 20260314130154_412.png",
-    "Pasted Image 20260308231856_927.png",
-    "Pasted Image 20260308224646_261.png",
-    "Pasted Image 20260307153640_007.png",
-    "Module 1/Без названия.md",
-    "Pasted Image 20260328205737_612.png",
-    "Homework",
-    "Pasted Image 20260325230423_548.png",
-    "Pasted Image 20260325230402_091.png",
-    "Module 2",
+    "Module 5/Model 5 - Common Principles.canvas",
+    "2026-04-27.md",
+    "Module 5/Sharding.md",
+    "Module 6/Module 6 - Common Principles.canvas",
+    "Module 5/HTTP Methods.md",
+    "Module 6/Formal Notations.md",
+    "Excalidraw/Drawing 2026-04-27 18.14.36.excalidraw.md",
     "Excalidraw",
-    "Module 1",
-    "Excalidraw/Drawing 2026-03-04 21.30.16.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-04 21.31.50.excalidraw.md",
-    "Добро пожаловать.md"
+    "Module 6/Formal Notations - Architecture Analysis and Design Language.md",
+    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145877840",
+    "Module 6/Notations Selection.md",
+    "Module 6/Notations Selection.md.tmp.10928.1777145831134",
+    "Module 6/Images/Pasted image 20260425223624.png",
+    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145743268",
+    "Module 6/Formal Notations - Architecture Analysis and Design Language.md.tmp.10928.1777145706873",
+    "Module 6/Semi-Formal Notations.md",
+    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145619149",
+    "Module 6/Formal Notations.md.tmp.10928.1777145587450",
+    "Module 6/Images/Pasted image 20260425223147.png",
+    "Module 6/Images/Pasted image 20260425223141.png",
+    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145487427",
+    "Module 6/Informal Notations - Examples.md",
+    "Module 6/Semi-Formal Notations.md.tmp.10928.1777145461000",
+    "Module 6/Images/Pasted image 20260425222836.png",
+    "Module 6/Images/Pasted image 20260425222627.png",
+    "Module 6/Images/Pasted image 20260425222617.png",
+    "Module 6/Images/Pasted image 20260425222607.png",
+    "Module 6/Images/Pasted image 20260425222552.png",
+    "Module 6/Informal Notations.md",
+    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777144990862",
+    "Module 6/Images/Pasted image 20260425220954.png",
+    "Module 6/Notation in Solution Architecture - Types of Notation.md",
+    "Workshop/Drawing 2026-04-23 22.51.21.excalidraw.md",
+    "Без названия.canvas",
+    "Homework/Homework 3/View 1.canvas",
+    "Homework/Homework 3/View 2.canvas",
+    "Homework/Homework 3/View 1.md",
+    "Homework/Homework 3/View 2.md",
+    "Homework/Homework 3/View 3.md",
+    "Homework/Homework 1/Homework 1.md",
+    "Homework/Homework 3/arch/workflow-booking-06.md",
+    "Homework/Homework 3/arch/workflow-booking-05.md",
+    "Homework/Homework 3/arch/workflow-booking-04.md",
+    "Homework/Homework 3/arch/workflow-booking-03.md",
+    "Homework/Homework 3/arch/workflow-booking-02.md",
+    "Homework/Homework 3/arch/workflow-booking-01.md",
+    "Homework/Homework 3/arch/component-userservice.md",
+    "Homework/Homework 3/arch/component-searchservice.md",
+    "Homework/Homework 3/arch/component-reportingservice.md",
+    "Homework/Homework 2/Utility tree.canvas",
+    "Module 5/Images/Pasted image 20260420190351.png",
+    "Module 1/Module 1 - Architecture Types.canvas",
+    "Module 2/Module 2 - Business Architecture Basic Terms.canvas",
+    "Module 5/Без названия.canvas",
+    "Без названия 1.canvas"
   ]
 }

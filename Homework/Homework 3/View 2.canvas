@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"booking_boundary","type":"group","x":-520,"y":-720,"width":2200,"height":2440,"color":"5","label":"BookingService  [Container]"},
+		{"id":"booking_api","type":"text","text":"**[Component]**\n\n### Booking API\n\nREST entry point. Validates request shape, delegates to engines.\n\n*Tech: Spring MVC / REST*","x":-400,"y":-634,"width":280,"height":279,"color":"#85BBF0"},
+		{"id":"rule_config_loader","type":"text","text":"**[Component]**\n\n### Rule Config Loader\n\nLoads validation & priority rules at runtime with hot-reload — supports ASR: update rules without redeploy.\n\n*Tech: Config Client*","x":1200,"y":-195,"width":280,"height":300,"color":"#85BBF0"},
+		{"id":"config_store","type":"text","text":"**[Container — Config Store]**\n\n### Configuration Store\n\nHot-reloadable validation & priority rules.\n\n*Tech: Azure App Configuration*","x":1200,"y":353,"width":280,"height":255,"color":"#999999"},
+		{"id":"audit_svc","type":"text","text":"**[Container]**\n\n### AuditService\n\nRecords booking events for audit trail (GDPR / compliance).\n\n*Tech: Event Log Store*","x":2350,"y":1429,"width":260,"height":271,"color":"#438DD5"},
+		{"id":"admin_web","type":"text","text":"**[Container]**\n\n### Admin Web App\n\nAdministrator UI for reviewing and approving bookings.\n\n*Tech: SPA (React)*","x":-1400,"y":-278,"width":280,"height":263,"color":"#438DD5"},
+		{"id":"booking_db","type":"text","text":"**[Container — Database]**\n\n### Booking Database\n\nStores booking records and status history.\n\n*Tech: Azure SQL / PostgreSQL*","x":-450,"y":1181,"width":380,"height":217,"color":"#999999"},
+		{"id":"workflow_engine","type":"text","text":"**[Component]**\n\n### Workflow Engine\n\nBooking state machine:\nProposed → Accepted/Rejected → Under Review → Approved → Enrolled.\n\n*Tech: State Machine*","x":-400,"y":-15,"width":280,"height":270,"color":"#85BBF0"},
+		{"id":"validation_engine","type":"text","text":"**[Component]**\n\n### Validation Engine\n\nEvaluates priority & booking rules on incoming requests; accepts or rejects.\n\n*Tech: Rule Engine*","x":1200,"y":-610,"width":280,"height":280,"color":"#85BBF0"},
+		{"id":"legend","type":"text","text":"## Legend — C4 Level 3 Notation\n\n🟦 **Component** *(inside the container)*\nA logical grouping of code within the BookingService boundary.\nColour: pale C4 blue `#85BBF0`.\n\n🟦 **Container** *(other, external to this zoom)*\nOther deployable units — web apps, other services, databases, stores.\nColour: C4 blue `#438DD5`.\n\n⬜ **Boundary (dashed group)**\nThe container being zoomed into — everything inside is one deployable unit.\n\n➡️ **Labelled arrow**\nDirected call or event. Label = *what happens*; `[...]` = *protocol / style* (sync REST, async message, etc.).\n\n---\n\n**Scope:** Only the BookingService container is decomposed here. Other containers (Client Web App, CourseService, NotificationService, DBs, etc.) appear as opaque boxes — their internals live in their own C4 L3 views.\n\n**Why BookingService?** It is the architecturally richest container — it drives ASR #2 (modifiable rules without redeploy) and ASR #4 (reporting/async decoupling), and owns the booking state machine.","x":2880,"y":-485,"width":420,"height":880,"color":"3"},
+		{"id":"event_publisher","type":"text","text":"**[Component]**\n\n### Event Publisher\n\nEmits domain events (BookingCreated, BookingApproved, …) to the message bus.\n\n*Tech: Async Messaging*","x":1280,"y":1337,"width":340,"height":270,"color":"#85BBF0"},
+		{"id":"booking_repository","type":"text","text":"**[Component]**\n\n### Booking Repository\n\nData access for booking records; handles persistence and queries.\n\n*Tech: JPA / Repository*","x":-400,"y":668,"width":280,"height":260,"color":"#85BBF0"},
+		{"id":"client_web","type":"text","text":"**[Container]**\n\n### Client Web App\n\nLearner-facing UI for course search and booking.\n\n*Tech: SPA (React)*","x":-1400,"y":-700,"width":280,"height":255,"color":"#438DD5"},
+		{"id":"course_svc","type":"text","text":"**[Container]**\n\n### CourseService\n\nProvides course metadata & priority data.\n\n*Tech: Spring Boot*","x":2350,"y":-555,"width":260,"height":225,"color":"#438DD5"},
+		{"id":"notification_svc","type":"text","text":"**[Container]**\n\n### NotificationService\n\nDelivers email / SMS on booking events.\n\n*Tech: Spring Boot + Broker*","x":2350,"y":1077,"width":260,"height":260,"color":"#438DD5"},
+		{"id":"title","type":"text","text":"# View 2 — Component Diagram (C4 Level 3)\n**BookingService — internal components**","x":-70,"y":-1080,"width":1060,"height":90}
+	],
+	"edges":[
+		{"id":"r1","fromNode":"client_web","fromSide":"right","toNode":"booking_api","toSide":"left","label":"Submits booking request\n[HTTPS / JSON]"},
+		{"id":"r2","fromNode":"admin_web","fromSide":"right","toNode":"booking_api","toSide":"left","label":"Reviews & approves bookings\n[HTTPS / JSON]"},
+		{"id":"r3","fromNode":"booking_api","fromSide":"bottom","toNode":"validation_engine","toSide":"top","label":"Validates request"},
+		{"id":"r4","fromNode":"booking_api","fromSide":"bottom","toNode":"workflow_engine","toSide":"top","label":"Executes transition"},
+		{"id":"r5","fromNode":"validation_engine","fromSide":"right","toNode":"course_svc","toSide":"left","label":"Fetches course priority\n[HTTPS / REST]"},
+		{"id":"r6","fromNode":"validation_engine","fromSide":"bottom","toNode":"rule_config_loader","toSide":"top","label":"Reads active rules"},
+		{"id":"r7","fromNode":"rule_config_loader","fromSide":"bottom","toNode":"config_store","toSide":"top","label":"Loads rules\n[HTTPS / Config API]"},
+		{"id":"r8","fromNode":"workflow_engine","fromSide":"bottom","toNode":"booking_repository","toSide":"top","label":"Persists state"},
+		{"id":"r9","fromNode":"workflow_engine","fromSide":"right","toNode":"event_publisher","toSide":"left","label":"Triggers event"},
+		{"id":"r10","fromNode":"booking_repository","fromSide":"bottom","toNode":"booking_db","toSide":"top","label":"Reads / writes\n[JDBC]"},
+		{"id":"r11","fromNode":"event_publisher","fromSide":"right","toNode":"notification_svc","toSide":"left","label":"Publishes event\n[Async / AMQP]"},
+		{"id":"r12","fromNode":"event_publisher","fromSide":"right","toNode":"audit_svc","toSide":"left","label":"Publishes event\n[Async / AMQP]"}
+	],
+	"metadata":{}
+}

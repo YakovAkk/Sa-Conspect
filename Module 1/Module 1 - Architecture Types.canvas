@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"m1_main_title","type":"text","text":"# Module 1\nArchitecture Types & Levels","x":0,"y":0,"width":350,"height":100,"color":"1"},
+		{"id":"m1_arch_pattern","type":"text","text":"## Architectural Pattern\n\nReusable solution to common design problems","x":1440,"y":520,"width":320,"height":120},
+		{"id":"m1_ref_model","type":"text","text":"## Reference Model\n\nConceptual model defining components and relationships","x":965,"y":630,"width":350,"height":120},
+		{"id":"m1_arch_types_overview","type":"text","text":"## Architecture Types\n\nDifferent levels and types of architecture:\n\n- Reference architecture\n- Reference Model\n- Architectural Pattern\n- Software Architecture\n- System Architecture\n- Solution Architecture\n- Enterprise Architecture","x":820,"y":-60,"width":320,"height":220,"color":"2"},
+		{"id":"m1_ref_arch","type":"text","text":"## Reference Architecture\n\nFoundational blueprint that provides a template for designing systems","x":660,"y":380,"width":320,"height":140},
+		{"id":"m1_solution_arch","type":"text","text":"## Solution Architecture\n\nProviders blueprint that ensures the solution meets both functional and non-functional requirements while aligning with the organization's wider goals","x":-1165,"y":1140,"width":350,"height":240},
+		{"id":"m1_software_arch","type":"text","text":"## Software Architecture\n\nHigh-level structure of software systems and how components interact","x":-1570,"y":0,"width":420,"height":160},
+		{"id":"m1_high_level_design","type":"text","text":"## High Level System Design\n\nOverall structure and key components","x":-1570,"y":570,"width":320,"height":120},
+		{"id":"m1_tech_architect","type":"text","text":"## Software (Technical) Architect\n\nRole focused on low-level system design. Could be named as Tech Lead","x":-1165,"y":710,"width":320,"height":180},
+		{"id":"m1_benefits_header","type":"text","text":"## Benefits of Architecture in Business","x":-640,"y":1260,"width":350,"height":100,"color":"4"},
+		{"id":"m1_benefits_list","type":"text","text":"## Key Business Benefits\n\n- Alignment with Business Goals\n- Efficient Resource Utilization\n- Scalability\n- Risk Mitigation\n- Improved Decision-Making\n- Interoperability\n- Enhanced Security\n- Faster Time-to-Market\n- Improved Collaboration\n- Cost Savings\n- Adaptability\n- Compliance","x":-540,"y":1780,"width":320,"height":400},
+		{"id":"m1_sys_infra_arch","type":"text","text":"## System (Infrastructure) Architecture\n\nManages infrastructure and underlying technology stack","x":920,"y":1140,"width":320,"height":180},
+		{"id":"m1_enterprise_arch","type":"text","text":"## Enterprise Architecture\n\nExamines the entire organization's IT infrastructure. Provides a complete view of the organization's architecture with long term overview. Explains the EA long-term view to stakeholders.","x":485,"y":1310,"width":350,"height":220},
+		{"id":"m1_low_level_design","type":"text","text":"## Low Level System Design\n\nDetailed implementation specifications","x":15,"y":1090,"width":320,"height":100}
+	],
+	"edges":[
+		{"id":"edge_001","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_arch_types_overview","toSide":"right","label":"introduces"},
+		{"id":"edge_002","fromNode":"m1_arch_types_overview","fromSide":"bottom","toNode":"m1_ref_arch","toSide":"top","label":"includes"},
+		{"id":"edge_003","fromNode":"m1_arch_types_overview","fromSide":"right","toNode":"m1_ref_model","toSide":"top","label":"includes"},
+		{"id":"edge_004","fromNode":"m1_arch_types_overview","fromSide":"right","toNode":"m1_arch_pattern","toSide":"left","label":"includes"},
+		{"id":"edge_005","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_software_arch","toSide":"top","label":"covers"},
+		{"id":"edge_006","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_tech_architect","toSide":"top","label":"covers"},
+		{"id":"edge_007","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_low_level_design","toSide":"top","label":"covers"},
+		{"id":"edge_008","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_sys_infra_arch","toSide":"top","label":"covers"},
+		{"id":"edge_009","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_solution_arch","toSide":"top","label":"covers"},
+		{"id":"edge_010","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_enterprise_arch","toSide":"top","label":"covers"},
+		{"id":"edge_011","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_high_level_design","toSide":"top","label":"covers"},
+		{"id":"edge_012","fromNode":"m1_main_title","fromSide":"bottom","toNode":"m1_benefits_header","toSide":"top","label":"discusses"},
+		{"id":"edge_013","fromNode":"m1_benefits_header","fromSide":"bottom","toNode":"m1_benefits_list","toSide":"top","label":"details"}
+	]
+}
