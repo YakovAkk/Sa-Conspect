@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dca4bb3e40198866",
+        "id": "07970cf4c6844a24",
         "type": "tabs",
         "children": [
           {
-            "id": "7e717f68609bddc3",
+            "id": "13dd8ec134f7a54e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "type": "canvas",
+              "state": {
+                "file": "Module 8/Module 8 - Common Principles.canvas",
+                "viewState": {
+                  "x": 810,
+                  "y": 450,
+                  "zoom": -0.6218620835326856
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Module 8 - Common Principles"
             }
           }
         ]
@@ -90,17 +97,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module 5/Model 5 - Common Principles.canvas",
+                "file": "Module 8/Module 8 - Common Principles.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Model 5 - Common Principles"
+              "title": "Обратные ссылки для Module 8 - Common Principles"
             }
           },
           {
@@ -152,21 +159,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module 5/Model 5 - Common Principles.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Model 5 - Common Principles"
+              "title": "Структура"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,62 +185,63 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7e717f68609bddc3",
+  "active": "13dd8ec134f7a54e",
   "lastOpenFiles": [
-    "Module 5/Model 5 - Common Principles.canvas",
-    "2026-04-27.md",
-    "Module 5/Sharding.md",
-    "Module 6/Module 6 - Common Principles.canvas",
-    "Module 5/HTTP Methods.md",
-    "Module 6/Formal Notations.md",
-    "Excalidraw/Drawing 2026-04-27 18.14.36.excalidraw.md",
-    "Excalidraw",
-    "Module 6/Formal Notations - Architecture Analysis and Design Language.md",
-    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145877840",
-    "Module 6/Notations Selection.md",
-    "Module 6/Notations Selection.md.tmp.10928.1777145831134",
-    "Module 6/Images/Pasted image 20260425223624.png",
-    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145743268",
-    "Module 6/Formal Notations - Architecture Analysis and Design Language.md.tmp.10928.1777145706873",
-    "Module 6/Semi-Formal Notations.md",
-    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145619149",
-    "Module 6/Formal Notations.md.tmp.10928.1777145587450",
-    "Module 6/Images/Pasted image 20260425223147.png",
-    "Module 6/Images/Pasted image 20260425223141.png",
-    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777145487427",
-    "Module 6/Informal Notations - Examples.md",
-    "Module 6/Semi-Formal Notations.md.tmp.10928.1777145461000",
-    "Module 6/Images/Pasted image 20260425222836.png",
-    "Module 6/Images/Pasted image 20260425222627.png",
-    "Module 6/Images/Pasted image 20260425222617.png",
-    "Module 6/Images/Pasted image 20260425222607.png",
-    "Module 6/Images/Pasted image 20260425222552.png",
-    "Module 6/Informal Notations.md",
-    "Module 6/Module 6 - Common Principles.canvas.tmp.10928.1777144990862",
-    "Module 6/Images/Pasted image 20260425220954.png",
-    "Module 6/Notation in Solution Architecture - Types of Notation.md",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.3bff2f6a118a",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.72f4255e7e6e",
+    "Module 8/RFP Structure.md",
+    "Module 8/RFP Structure.md.tmp.22772.8f05cbd11a28",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.21ad6b486598",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.33479c2e4b2c",
+    "Module 8/Request for Proposal.md",
+    "Module 8/Request for Proposal.md.tmp.22772.d2f0d7aba576",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.251fdfb87df7",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.7cb7ecdaa80c",
+    "Module 8/RFQ Documentation.md",
+    "Module 8/RFQ Documentation.md.tmp.22772.a842e7317cf6",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.a98bff88f543",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.f742cbfb84da",
+    "Module 8/Request for Quotation.md",
+    "Module 8/Answering RFI Questions.md",
+    "Module 8/Request for Information.md",
+    "Module 8/Presales Overall Timeline.md",
+    "Module 8/Presales Process.md",
+    "Module 8/Areas of Responsibilities.md",
+    "Module 8/Presales In Team.md",
+    "Module 8/Overall Timeline.md",
+    "Module 8/Module 8 - Common Principles.canvas",
+    "Homework/Homework 4/Homework 4.md",
+    "Homework/Homework 4/04-Resource-Plan.md",
+    "Course conspect/Homework/Homework 4/Homework 4.md",
+    "Homework/Homework 4/03-Timeline.md",
+    "Homework/Homework 4/02-Estimation.md",
+    "Homework/Homework 4/01-WBS-and-Overview.md",
+    "Homework/Homework 4/README.md",
+    "Pasted Image 20260306191522_008.png",
+    "Module 7/Module 7 - Common Principles.canvas",
     "Workshop/Drawing 2026-04-23 22.51.21.excalidraw.md",
-    "Без названия.canvas",
-    "Homework/Homework 3/View 1.canvas",
-    "Homework/Homework 3/View 2.canvas",
-    "Homework/Homework 3/View 1.md",
-    "Homework/Homework 3/View 2.md",
-    "Homework/Homework 3/View 3.md",
-    "Homework/Homework 1/Homework 1.md",
-    "Homework/Homework 3/arch/workflow-booking-06.md",
-    "Homework/Homework 3/arch/workflow-booking-05.md",
-    "Homework/Homework 3/arch/workflow-booking-04.md",
-    "Homework/Homework 3/arch/workflow-booking-03.md",
-    "Homework/Homework 3/arch/workflow-booking-02.md",
-    "Homework/Homework 3/arch/workflow-booking-01.md",
-    "Homework/Homework 3/arch/component-userservice.md",
-    "Homework/Homework 3/arch/component-searchservice.md",
-    "Homework/Homework 3/arch/component-reportingservice.md",
-    "Homework/Homework 2/Utility tree.canvas",
-    "Module 5/Images/Pasted image 20260420190351.png",
-    "Module 1/Module 1 - Architecture Types.canvas",
+    "Homework/Homework 3/Deployment View.md",
+    "Homework/Homework 3/Context learning system diagram.md",
+    "Homework/Homework 3/Drawing 2026-05-03 18.24.19.excalidraw.md",
+    "Homework/Homework 3/Deployment View.canvas",
+    "Module 7/Без названияadasdasdasd.md",
+    "Homework/Homework 3/Context learning system diagram.restored.md",
+    "Excalidraw/Drawing 2026-04-27 18.14.36.excalidraw.md",
     "Module 2/Module 2 - Business Architecture Basic Terms.canvas",
-    "Module 5/Без названия.canvas",
-    "Без названия 1.canvas"
+    "Homework/Homework 3/View 2.canvas",
+    "Homework/Homework 3/View 1.canvas",
+    "Module 6/Module 6 - Common Principles.canvas",
+    "Module 6/Images/Pasted image 20260428215628.png",
+    "Module 6/Images/Pasted image 20260428203401.png",
+    "Module 6/Images/Pasted image 20260428203137.png",
+    "Module 6/Images/Pasted image 20260428203126.png",
+    "Module 6/Images/Pasted image 20260428201519.png",
+    "Module 6/Images/Pasted image 20260428201509.png",
+    "Module 6/Images/Pasted image 20260428200214.png",
+    "Без названия.canvas",
+    "Module 5/Model 5 - Common Principles.canvas",
+    "Module 6/Images/Pasted image 20260425223624.png",
+    "Module 6/Images/Pasted image 20260425223147.png",
+    "Homework/Homework 2/Utility tree.canvas"
   ]
 }
