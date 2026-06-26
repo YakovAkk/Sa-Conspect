@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "07970cf4c6844a24",
+        "id": "7f39bbdb4149d969",
         "type": "tabs",
         "children": [
           {
-            "id": "13dd8ec134f7a54e",
+            "id": "0fd495bee1eb37b7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Module 8/Module 8 - Common Principles.canvas",
-                "viewState": {
-                  "x": 810,
-                  "y": 450,
-                  "zoom": -0.6218620835326856
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Module 8 - Common Principles"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -97,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module 8/Module 8 - Common Principles.canvas",
+                "file": "Module 5/Architectural Style and Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +100,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Module 8 - Common Principles"
+              "title": "Обратные ссылки для Architectural Style and Pattern"
             }
           },
           {
@@ -185,63 +178,63 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "13dd8ec134f7a54e",
+  "active": "5fef42daf881cfbf",
   "lastOpenFiles": [
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.3bff2f6a118a",
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.72f4255e7e6e",
-    "Module 8/RFP Structure.md",
-    "Module 8/RFP Structure.md.tmp.22772.8f05cbd11a28",
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.21ad6b486598",
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.33479c2e4b2c",
-    "Module 8/Request for Proposal.md",
-    "Module 8/Request for Proposal.md.tmp.22772.d2f0d7aba576",
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.251fdfb87df7",
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.7cb7ecdaa80c",
-    "Module 8/RFQ Documentation.md",
-    "Module 8/RFQ Documentation.md.tmp.22772.a842e7317cf6",
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.a98bff88f543",
-    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.f742cbfb84da",
-    "Module 8/Request for Quotation.md",
-    "Module 8/Answering RFI Questions.md",
-    "Module 8/Request for Information.md",
-    "Module 8/Presales Overall Timeline.md",
-    "Module 8/Presales Process.md",
-    "Module 8/Areas of Responsibilities.md",
-    "Module 8/Presales In Team.md",
-    "Module 8/Overall Timeline.md",
-    "Module 8/Module 8 - Common Principles.canvas",
-    "Homework/Homework 4/Homework 4.md",
-    "Homework/Homework 4/04-Resource-Plan.md",
-    "Course conspect/Homework/Homework 4/Homework 4.md",
-    "Homework/Homework 4/03-Timeline.md",
-    "Homework/Homework 4/02-Estimation.md",
-    "Homework/Homework 4/01-WBS-and-Overview.md",
-    "Homework/Homework 4/README.md",
-    "Pasted Image 20260306191522_008.png",
-    "Module 7/Module 7 - Common Principles.canvas",
-    "Workshop/Drawing 2026-04-23 22.51.21.excalidraw.md",
-    "Homework/Homework 3/Deployment View.md",
-    "Homework/Homework 3/Context learning system diagram.md",
-    "Homework/Homework 3/Drawing 2026-05-03 18.24.19.excalidraw.md",
-    "Homework/Homework 3/Deployment View.canvas",
-    "Module 7/Без названияadasdasdasd.md",
-    "Homework/Homework 3/Context learning system diagram.restored.md",
-    "Excalidraw/Drawing 2026-04-27 18.14.36.excalidraw.md",
+    "Module 5/Advantages and Disadvantages of EDA.md",
+    "Module 5/Actor-Based Architecture.md",
+    "Module 4/Drawing 2026-04-03 22.24.58.excalidraw.md",
+    "Module 3/Drawing 2026-04-03 22.23.12.excalidraw.md",
     "Module 2/Module 2 - Business Architecture Basic Terms.canvas",
+    "Module 2/Drawing 2026-04-03 22.20.55.excalidraw.md",
+    "Module 2/Module 2 - Excalidraw Notes.md",
+    "Module 1/Test drawing.md",
+    "Module 1/Module 1 - Architecture Types.canvas",
+    "Module 1/Images/Pasted Image 20260306191522_008.png",
+    "Pasted Image 20260315165052_090.png",
+    "Pasted Image 20260314113626_504.png",
+    "Pasted Image 20260308224646_261.png",
+    "Module 8/Master Services Agreements.md",
+    "Module 7/Module 7 - Common Principles.canvas",
+    "Module 7/Module 7 - Common Principles.canvas.tmp.22772.cf0d137f42a0",
+    "Module 8/Module 8 - Common Principles.canvas",
+    "Module 6/Module 6 - Common Principles.canvas",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.e99f7935d33c",
+    "Module 8/Work Breakdown Structure - Module 8.md",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.1d6ef4f05020",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.c4ef060e464f",
+    "Module 8/Sections of a Change Order Document.md",
+    "Module 8/Sections of a Change Order Document.md.tmp.22772.0e0dbbbe19c4",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.de22d1792d81",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.fc7f95f04dec",
+    "Module 8/Change Orders.md",
+    "Module 8/Change Orders.md.tmp.22772.2c66a090445d",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.c4500fea4566",
+    "Module 8/Module 8 - Common Principles.canvas.tmp.22772.1daf87c66636",
+    "Module 8/Statement of Work.md",
+    "Module 8/Factors Considering NDA.md",
+    "Module 8/Non-Disclosure Agreements.md",
+    "Module 8/Time and Materials Pricing Model.md",
+    "Module 8/Outcome-Based Pricing Model.md",
+    "Module 8/Fixed-Price Pricing Model.md",
+    "Module 8/Pricing Models.md",
+    "Module 8/Digital Platform Engineering Service - DPES.md",
+    "Module 8/Product Development Services.md",
+    "Module 8/Engagement Models.md",
+    "Module 8/Meeting With Client.md",
+    "Module 8/RFP Documentation.md",
+    "Module 8/Resource Plan.md",
+    "Module 8/Timeline - Module 8.md",
+    "Module 8/Estimation Techniques.md",
+    "Pasted Image 20260306191522_008.png",
+    "Homework/Homework 3/Deployment View.canvas",
     "Homework/Homework 3/View 2.canvas",
     "Homework/Homework 3/View 1.canvas",
-    "Module 6/Module 6 - Common Principles.canvas",
     "Module 6/Images/Pasted image 20260428215628.png",
     "Module 6/Images/Pasted image 20260428203401.png",
     "Module 6/Images/Pasted image 20260428203137.png",
     "Module 6/Images/Pasted image 20260428203126.png",
     "Module 6/Images/Pasted image 20260428201519.png",
-    "Module 6/Images/Pasted image 20260428201509.png",
-    "Module 6/Images/Pasted image 20260428200214.png",
     "Без названия.canvas",
-    "Module 5/Model 5 - Common Principles.canvas",
-    "Module 6/Images/Pasted image 20260425223624.png",
-    "Module 6/Images/Pasted image 20260425223147.png",
-    "Homework/Homework 2/Utility tree.canvas"
+    "Module 5/Model 5 - Common Principles.canvas"
   ]
 }
